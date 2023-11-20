@@ -3,8 +3,11 @@ function Calcular(){
   let fim = parseInt(document.getElementById('fim').value)
   let passo = parseInt(document.getElementById('passo').value)
   let result = document.getElementById('resultado')
-
-  for(c = inicio; c <= fim; c = c + passo){
-      result.innerHTML += c
+  if (inicio == "" || fim == "" || passo == ""){
+    alert("Insira valores maiores que 0.")
+  } else{
+    for(c = inicio; c <= fim; c = c + passo){
+        result.innerHTML += c
+    }
   }
 }
