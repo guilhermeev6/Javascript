@@ -1,0 +1,163 @@
+COMENTÁRIOS
+
+//uma única linha
+
+/*
+mais de uma
+linha de
+código
+*/
+
+
+CÓDIGOS	
+
+= :Não se fala "igual" e sim "recebe".
+
+REGRAS DO IDENTIFICADOR
+
+Podem começar com letra, $ ou_;
+
+Não podem começar com números;
+
+É possível usar acentos e símbolos;
+
+Não pode conter espaços;
+
+Não podem ser palavras reservadas;
+
+DICAS
+
+Maiúsculas e minúsculas fazem diferença;
+
+Tente escolher nomes coerentes para as variáveis;
+
+Evite se tornar um "programador alfabeto" ou um "programador contador";
+
+
+
+
+
+
+DATA TYPES ou TIPOS PRIMITIVOS
+
+
+TYPEOF
+
+	NUMBERS
+
+		NÚMEROS INTEIROS: 5, 18, -12;
+
+		NÚMEROS REAIS: 0.5, -15.9, 3.14, 8.0;
+
+		INFINITY
+
+		NaN
+
+
+
+	STRING
+
+		"Google"
+		'JavaScript'
+		`Maria`
+
+		Pode ser um conjunto de números também: cpf, telefone, RG etc.
+
+
+
+	BOOLEAN
+
+		true
+		false
+
+	NULL
+
+	UNDEFINED
+
+	OBJECT
+
+		ARRAY
+
+	FUNCTION
+
+
+	TRATAMENTO DE DADOS
+
+		+ pode servir tanto para adição como para concatenação.
+
+		(number + number) para adição
+		(string + string) para concatenação
+
+	CONVERÇÕES
+
+		String para número
+
+		Number(n)
+		Number.parseInt(n) par números inteiros
+		Number.parseFloat(n) para números reais
+
+
+		Número para string
+
+		String(n)
+		n.Tostring(n)
+
+
+
+
+
+
+	FORMATANDO STRINGS
+
+		var = s 'JavaScript'
+
+		'Eu estou aprendendo s' //não faz interpolação
+
+		'Eu estou aprendendo' + s //usa concatenação
+
+		`Eu estou aprendendo ${s}` //usa template string
+
+
+
+		s.Length  //quantos caracteres a string tem
+		s.toUpperCase()  //tudo para 'MAIÚSCULAS'
+		s.toLowerCase()  //tudo para 'minúsculas'
+
+
+
+	FORMATANDO NÚMEROS
+
+		var n1 = 1543.5
+
+		n1.toFixed(2)  //quantidade de casas decimais
+
+
+
+
+
+	OPERADORES
+
+		ARITIMÉTICOS:
+
+		+
+		-
+		*
+		/
+		%
+		**
+
+
+
+		PRECEDÊNCIA:
+
+		()
+		**
+		* / %
+		+ - 
+
+
+IF E ELSE PRÁTICO
+
+	let média = 5.5
+
+	média >= 7.0 ? "Aprovado" : "Reprovado"
