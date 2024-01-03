@@ -1,163 +1,23 @@
-COMENTÁRIOS
+VETORES
 
-//uma única linha
+.concat() - Concatena vetores.
 
-/*
-mais de uma
-linha de
-código
-*/
+.join("PARÂMETRO") - Lista os elementos com o parâmetro inserido no meio.
 
+.push() - Insere o parâmetro no final do array
 
-CÓDIGOS	
+.pop() - Remove o último elemento.
 
-= :Não se fala "igual" e sim "recebe".
+.shift() - Remove o primeiro elemento.
 
-REGRAS DO IDENTIFICADOR
+.reverse() - Inverte a ordem dos elementos.
 
-Podem começar com letra, $ ou_;
+.sort() - Coloca o vetor em ordem crescente(números) e alfabética(string).
 
-Não podem começar com números;
+.length - Mostra quantos elementos existem no vetor.
 
-É possível usar acentos e símbolos;
+.indexOf(PARÂMETRO) - Fala o número da posição do parâmetro inserido. (Caso retorne -1, o valor não foi encontrado.)
 
-Não pode conter espaços;
+NOME DO VETOR[POSIÇÃO] = NOVO VALOR - Substitui o valor.
 
-Não podem ser palavras reservadas;
-
-DICAS
-
-Maiúsculas e minúsculas fazem diferença;
-
-Tente escolher nomes coerentes para as variáveis;
-
-Evite se tornar um "programador alfabeto" ou um "programador contador";
-
-
-
-
-
-
-DATA TYPES ou TIPOS PRIMITIVOS
-
-
-TYPEOF
-
-	NUMBERS
-
-		NÚMEROS INTEIROS: 5, 18, -12;
-
-		NÚMEROS REAIS: 0.5, -15.9, 3.14, 8.0;
-
-		INFINITY
-
-		NaN
-
-
-
-	STRING
-
-		"Google"
-		'JavaScript'
-		`Maria`
-
-		Pode ser um conjunto de números também: cpf, telefone, RG etc.
-
-
-
-	BOOLEAN
-
-		true
-		false
-
-	NULL
-
-	UNDEFINED
-
-	OBJECT
-
-		ARRAY
-
-	FUNCTION
-
-
-	TRATAMENTO DE DADOS
-
-		+ pode servir tanto para adição como para concatenação.
-
-		(number + number) para adição
-		(string + string) para concatenação
-
-	CONVERÇÕES
-
-		String para número
-
-		Number(n)
-		Number.parseInt(n) par números inteiros
-		Number.parseFloat(n) para números reais
-
-
-		Número para string
-
-		String(n)
-		n.Tostring(n)
-
-
-
-
-
-
-	FORMATANDO STRINGS
-
-		var = s 'JavaScript'
-
-		'Eu estou aprendendo s' //não faz interpolação
-
-		'Eu estou aprendendo' + s //usa concatenação
-
-		`Eu estou aprendendo ${s}` //usa template string
-
-
-
-		s.Length  //quantos caracteres a string tem
-		s.toUpperCase()  //tudo para 'MAIÚSCULAS'
-		s.toLowerCase()  //tudo para 'minúsculas'
-
-
-
-	FORMATANDO NÚMEROS
-
-		var n1 = 1543.5
-
-		n1.toFixed(2)  //quantidade de casas decimais
-
-
-
-
-
-	OPERADORES
-
-		ARITIMÉTICOS:
-
-		+
-		-
-		*
-		/
-		%
-		**
-
-
-
-		PRECEDÊNCIA:
-
-		()
-		**
-		* / %
-		+ - 
-
-
-IF E ELSE PRÁTICO
-
-	let média = 5.5
-
-	média >= 7.0 ? "Aprovado" : "Reprovado"
+for (let pos in vetor) {} - Conta cada posição do vetor em um laço de repetição (para cada posição no vetor, faça isso.)
